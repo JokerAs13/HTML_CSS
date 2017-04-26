@@ -1,0 +1,53 @@
+.listeCouleur
+{
+	text-indent: 25px; /* Pour décaler le texte un peu vers la droite */
+}
+
+.mots
+{
+	background-color: rgb(241, 236, 10); /* Modifie la couleur de fond */
+}
+
+.def
+{
+	background-color: rgb(35, 200, 200);
+}
+
+#defHTML
+{
+	background-color: rgb(240, 11, 34);
+	border: dotted 2px; /* Bordure */
+}
+
+#defCSS
+{
+	background-color: rgb(78, 193, 57);
+	border: 2px solid;
+}
+
+#defJS
+{
+	background-color: rgb(132, 153, 253);
+	border: dashed 2px; 
+}
+
+.pExo4
+{
+	font-size: 11px; /* Taille du texte */
+}
+
+#HTML4
+{
+	text-decoration: line-through; /* Texte barré */
+}
+
+.HTML5etMAIL
+{
+	text-decoration: underline; /* Texte sous ligné */
+}
+
+fieldset
+{
+	width: 80% /* Largeur du texte */
+}
+

@@ -1,0 +1,34 @@
+body
+{
+	font-family: Verdana;
+	font-size: 1em;
+	text-align: justify;
+}
+
+h1
+{
+	text-align: center;
+	font-family: "Times new roman";
+	text-transform: capitalize;
+}
+
+.html
+{
+	text-decoration: underline;
+	color: red;
+}
+
+.Standard
+{
+	text-decoration: underline;
+}
+
+.koko
+{
+	font-weight: bold;
+}
+
+.ligne
+{
+	color: blue;
+}

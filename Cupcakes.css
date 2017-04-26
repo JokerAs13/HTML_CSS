@@ -1,0 +1,22 @@
+h1
+{
+	color: fuchsia; 
+}
+
+.p
+{
+	background-color: fuchsia;
+	border-radius: 10px;
+}
+
+ul
+{
+	border: 2px black solid;
+	box-shadow: 3px 3px 0px black;
+
+}
+
+figure
+{
+	text-align: center;
+}
