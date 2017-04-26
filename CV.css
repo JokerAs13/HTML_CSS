@@ -1,0 +1,56 @@
+body{
+	background-image: url("arriere_plan.jpg");
+  	background-position: center;
+  	background-size: cover;
+  	font-family: 'MyWebFont', "Arial Black", Impact, Georgia;
+}
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('rubik/WebFont.eot');
+	src: url('rubik/WebFont.eot?iefix') format('eot'),
+	     url('rubik/WebFont.woff') format('woff'),
+	     url('rubik/WebFont.ttf') format('truetype'),
+	     url('rubik/WebFont.svg#webfont') format('svg');
+}
+
+h1{
+	text-align: center;
+}
+
+.p1{
+	text-align: center;
+}
+
+figure{
+	float: right;
+}
+
+
+#conteneur{
+ 	display: flex; 
+	clear: both;
+	justify-content : space-between
+}
+
+.article:nth-child(1)
+{
+	background-color: green;
+	height: 300px;
+	flex: 1;
+}
+
+.sec1:nth-child(2)
+{
+flex: 5;
+}
+
+.sec2:nth-child(3)
+{
+flex:3;
+}
+
+.sec3:nth-child(4)
+{
+flex:3;
+}
