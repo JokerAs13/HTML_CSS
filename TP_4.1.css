@@ -1,0 +1,76 @@
+body
+{
+	background-color: rgb(183, 91, 30);
+}
+
+.menu
+{
+	list-style-type: none;
+	display: inline;
+	color: rgb(183,91,30);
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+#menu
+{
+	margin-left: -20px;
+	float: left;
+}
+
+div
+{
+	background-color: white;
+	margin-right: 10%;
+	margin-left: 10%;
+	border: solid rgb(107,160,250) 1px;
+	font-family: Arial;
+}
+
+#photo_header
+{
+	width: 100%;
+	border-top: 5px solid rgb(249,244,98);
+}
+
+figure
+{
+	text-align: right;
+	margin-right: 15px;
+	margin-top: -20px;
+}
+
+#logotip
+{
+	margin-bottom: -15px;
+	color: rgb(241,133,35);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#smal
+{
+	font-style: italic;
+	color: rgb(213,9,13);
+}
+
+h1
+{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(239,163,58);
+}
+
+#images_tree
+{
+	border: 1px dashed black;
+	float: right;
+	position: relative;
+	right: 25px;
+}
+
+#texte
+{
+	margin-right: 200px;
+}
