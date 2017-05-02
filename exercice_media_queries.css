@@ -1,0 +1,51 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.div1, .div2, .div3
+{
+	display: inline-block;
+	border : solid 3px #AAA;
+	width: 30%;
+	height: 100px;
+	margin: 1%;
+}
+
+.div1
+{
+	background-color: orange;
+}
+
+.div2
+{
+	background-color: #28B;
+}
+
+.div3
+{
+	background-color: #2B8;
+}
+
+.footer
+{
+	width: 100%;
+	border-top: solid 1px black;
+	height: 200px;
+	margin-top: 20px;
+	background-color: #AAA;
+}
+
+@media screen and (max-width: 780px)
+{
+	.div1, .div2, .div3
+		{
+			display:block;
+			width: 100%;
+		}
+	.footer
+		{
+			display: none;
+		}
+}
